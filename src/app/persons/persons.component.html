@@ -1,0 +1,4 @@
+<p *ngIf="fetching_data">Fetching data ... </p>
+<ul>
+  <li *ngFor="let name of personList" (click)="onRemovePerson(name)">{{name}}</li>
+</ul>
